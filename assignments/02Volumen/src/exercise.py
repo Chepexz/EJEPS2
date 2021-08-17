@@ -1,7 +1,7 @@
 import math
 import os
 def main():
-    os.system("cls")
+    os.system("clear")
     radio = float(input("Dame el valor del radio de la esfera: "))
     volumen = 4 / 3 * math.pi * math.pow(radio,3)
 
