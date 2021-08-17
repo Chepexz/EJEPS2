@@ -3,16 +3,13 @@ import os
 
 def main():
     os.system("clear")
-    h = 6
-    l = 15
-    perimetro= (h * 2) + (l * 2)
-    area= h * l
+    h = 12
+    b = 7
+    area= b * h / 2
 
-    print(F"Base rectángulo = {l}")
-    print(F"Altura rectángulo = {h}")
-    print(F"Perimetro del rectángulo = {perimetro}")
-    print(F"Área del rectángulo = {area}")
+    print(F"Base de Triangulo = {b}")
+    print(F"Altura del Triangulo = {h}")
+    print(F"Área del Triangulo es = {area}")
 
 if __name__=='__main__':
     main()
-
