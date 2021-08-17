@@ -1,18 +1,18 @@
 import math
 import os
+
 def main():
-    os.system("cls")
-    lado = float(input("Dame tu valor del lado del cuadrado "))
+    os.system("clear")
+    h = 6
+    l = 15
+    perimetro= (h * 2) + (l * 2)
+    area= h * l
 
-    perimetro = 4 * lado
-    """
-    area = lado * lado
-    area = lado ** 2
-    """
-    area = math.pow(lado,2)
-
-    print("El perímetro del cuadrado de lado " + str(lado) + "es " + str(perimetro))
-    print(f"El área del cuadrado de lado {lado} es: {area}")
+    print(F"Base rectángulo = {l}")
+    print(F"Altura rectángulo = {h}")
+    print(F"Perimetro del rectángulo = {perimetro}")
+    print(F"Área del rectángulo = {area}")
 
 if __name__=='__main__':
     main()
+
