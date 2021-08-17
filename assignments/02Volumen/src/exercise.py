@@ -1,12 +1,11 @@
 import math
 import os
-
 def main():
-    os.system("clear")
-    a = float(input("ingrese el valor para el cateto 'A' cateto: "))
-    b = float(input("ingrese el valor para el cateto 'B' cateto: "))
-    c = math.sqrt((a*a+b*b))
-    print(str(F"El valor de la Hipotenusa es: {c}"))
+    os.system("cls")
+    radio = float(input("Dame el valor del radio de la esfera: "))
+    volumen = 4 / 3 * math.pi * math.pow(radio,3)
+
+    print(f"El volumen de la esfera con radio {radio} es {volumen} unidades cubicas")
 
 if __name__=='__main__':
     main()
